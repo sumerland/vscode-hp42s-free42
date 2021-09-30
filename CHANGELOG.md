@@ -1,4 +1,7 @@
 # Change Log
+## [1.0.6_TW] - 2021-09-30
+
+- (TW) added recent free42 commands 
 
 ## [1.0.6] - 2020-09-21
 
