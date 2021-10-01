@@ -173,7 +173,7 @@
       "patterns": [
         {
           "comment": "starts with normal char, ends with normal char",
-          "match": "\\b(RTNERR)\\b",
+          "match": "\\b(FUNC|RTNERR|R↑N|R↓N)\\b",
           "name": "keyword.other.control.sp.free42"
         }
       ]
@@ -218,7 +218,7 @@
       "patterns": [
         {
           "comment": "free42: starts with normal char, ends with normal char",
-          "match": "\\b(ACCEL|ADATE|ANUM|ATIME24|ATIME|BRESET|BSIGNED|BWRAP|CLK12|CLK24|DATE|DDAYS|DMY|DOW|FMA|FUNC|GETKEY1|HEADING|LOCAT|MDY|MVARCAT|NOP|PGMMENU|RCLFLAG|RTNNO|RTNYES|STOFLAG|STRACE|TIME|WSIZE|X<>F|YMD)\\b",
+          "match": "\\b(4STK|ACCEL|ADATE|ANUM|ATIME24|ATIME|BRESET|BSIGNED|BWRAP|CLK12|CLK24|DATE|DDAYS|DEPTH|DMY|DOW|DROP|DUP|ERRMSG|ERRNO|FMA|GETKEY1|HEADING|L4STK|LNSTK|LOCAT|MDY|MVARCAT|NOP|NSTK|PGMMENU|RCLFLAG|RTNNO|RTNYES|STOFLAG|STRACE|TIME|WSIZE|X<>F|YMD)\\b",
           "name": "keyword.other.control.np.free42"
         }
       ]
@@ -296,7 +296,7 @@
       "patterns": [
         {
           "comment": "... 99|... \"A\"",
-          "match": "\\b(ARCL|ASTO|CF|CLV|DIM|DSE|EDITN|ENG|FC\\?C|FC\\?|FIX|FS\\?C|FS\\?|GTO|INDEX|INPUT|INTEG|ISG|KEY|PGMINT|PGMSLV|PRV|RCL\\+|RCL-|RCL×|RCL÷|RCL|SCI|SF|SOLVE|STO\\+|STO-|STO×|STO÷|STO|TONE|VARMENU|VIEW|X<>|XEQ|ΣREG)\\b",
+          "match": "\\b(ARCL|ASTO|CF|CLV|DIM|DROPN|DSE|DUPN|EDITN|ENG|FC\\?C|FC\\?|FIX|FS\\?C|FS\\?|GTO|INDEX|INPUT|INTEG|ISG|KEY|PGMINT|PGMSLV|PICK|PRV|RCL\\+|RCL-|RCL×|RCL÷|RCL|SCI|SF|SOLVE|STO\\+|STO-|STO×|STO÷|STO|TONE|UNPICK|VARMENU|VIEW|X<>|XEQ|ΣREG)\\b",
           "name": "keyword.other.control.al.free42"
         }
       ]

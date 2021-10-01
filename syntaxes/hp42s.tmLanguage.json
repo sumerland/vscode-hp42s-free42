@@ -199,7 +199,7 @@
       "patterns": [
         {
           "comment": "free42: starts with normal char, ends with normal char",
-          "match": "\\b(ACCEL|ADATE|ATIME24|ATIME|CLK12|CLK24|DATE|DDAYS|DMY|DOW|HEADING|MDY|LOCAT|TIME)\\b",
+          "match": "\\b(4STK|ACCEL|ADATE|ATIME24|ATIME|CLK12|CLK24|DATE|DDAYS|DEPTH|DMY|DOW|DROP|DUP|ERRMSG|ERRNO|HEADING|L4STK|LNSTK|LOCAT|MDY|NSTK|TIME)\\b",
           "name": "keyword.other.control.np.hp42s"
         }
       ]
@@ -268,7 +268,7 @@
       "patterns": [
         {
           "comment": "... 99|... \"A\"",
-          "match": "\\b(ARCL|ASTO|CF|CLV|DIM|DSE|EDITN|ENG|FC\\?C|FC\\?|FIX|FS\\?C|FS\\?|GTO|INDEX|INPUT|INTEG|ISG|KEY|PGMINT|PGMSLV|PRV|RCL\\+|RCL-|RCL×|RCL÷|RCL|SCI|SF|SOLVE|STO\\+|STO-|STO×|STO÷|STO|TONE|VARMENU|VIEW|X<>|XEQ|ΣREG)\\b",
+          "match": "\\b(ARCL|ASTO|CF|CLV|DIM|DROPN|DSE|DUPN|EDITN|ENG|FC\\?C|FC\\?|FIX|FS\\?C|FS\\?|GTO|INDEX|INPUT|INTEG|ISG|KEY|PGMINT|PGMSLV|PRV|RCL\\+|RCL-|RCL×|RCL÷|RCL|R↑N|R↓N|SCI|SF|SOLVE|STO\\+|STO-|STO×|STO÷|STO|TONE|VARMENU|VIEW|X<>|XEQ|ΣREG)\\b",
           "name": "keyword.other.control.al.hp42s"
         }
       ]
