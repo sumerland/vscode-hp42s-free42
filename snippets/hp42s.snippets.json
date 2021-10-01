@@ -3063,6 +3063,14 @@
     ],
     "description": "R↑: Roll up the contents of the four stack registers one position."
   },
+  "R↑N <number>": {
+    "prefix": "RN",
+    "scope": "hp42s",
+    "body": [
+      "R↑N ${1:number}$0"
+    ],
+    "description": "R↑N: Rolls levels 1..n down or up. Note that the standard R↓ and R↑ are equivalent to R↓N depth and R↑N depth."
+  },
   "R↓": {
     "prefix": "R",
     "scope": "hp42s",
@@ -3070,6 +3078,14 @@
       "R↓$0"
     ],
     "description": "R↓: Roll down the contents of the four stack registers one position."
+  },
+  "R↓N <number>": {
+    "prefix": "RN",
+    "scope": "hp42s",
+    "body": [
+      "R↓N ${1:number}$0"
+    ],
+    "description": "R↓N: Rolls levels 1..n down or up. Note that the standard R↓ and R↑ are equivalent to R↓N depth and R↑N depth."
   },
   "SCI <number>": {
     "prefix": "SCI",
