@@ -71,9 +71,11 @@ export class RpnFormatProvider {
             text = text.replace(/(^\s*)BASE\*/, '$1BASE×');
             text = text.replace(/(^\s*)BASE\//, '$1BASE÷');
             text = text.replace(/(^\s*)BASE\+\/-/, '$1BASE±');
-
+           
             text = text.replace(/(^\s*)(R(\\|)\^)/, '$1R↑');
             text = text.replace(/(^\s*)(R(\\|)v)\b/, '$1R↓');
+
+            text = text.replace(/(^\s*)(R(\\|)vN)/, '$1R↓N');
 
             text = text.replace(/(^\s*)(\\|)(Sigma|SUM|GS)\+/, '$1Σ+');
             text = text.replace(/(^\s*)(\\|)(Sigma|SUM|GS)-/, '$1Σ-');
