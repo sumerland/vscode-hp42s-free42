@@ -2,12 +2,12 @@
     "name": "vscode-hp42s-free42",
     "repository": {
         "type": "git",
-        "url": "https://github.com/heilingbrunner/vscode-hp42s-free42.git"
+        "url": "https://github.com/sumerland/vscode-hp42s-free42.git"
     },
     "displayName": "HP42S-free42",
     "description": "HP42S/free42 RPN programming language support",
-    "version": "1.0.6",
-    "publisher": "JHeilingbrunner",
+    "version": "1.0.6_TW",
+    "publisher": "TWolf",
     "license": "MIT",
     "icon": "images/vscode-hp42s-free42-logo.png",
     "engines": {
@@ -217,7 +217,7 @@
         "ts-loader": "^5.3.3",
         "typescript": "^3.4.3",
         "vscode": "^1.1.33",
-        "webpack": "^4.29.6",
+        "webpack": "^4.46.0",
         "webpack-cli": "^3.3.11"
     }
 }
