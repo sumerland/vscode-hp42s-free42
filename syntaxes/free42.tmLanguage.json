@@ -182,7 +182,7 @@
       "patterns": [
         {
           "comment": "free42: starts with normal char, ends with special",
-          "match": "\\b(DATE\\+|WSIZE\\?)",
+          "match": "\\b(DATE\\+|LIST\\?|WSIZE\\?)",
           "name": "keyword.other.control.np.free42"
         }
       ]
@@ -218,7 +218,7 @@
       "patterns": [
         {
           "comment": "free42: starts with normal char, ends with normal char",
-          "match": "\\b(4STK|ACCEL|ADATE|ANUM|ATIME24|ATIME|BRESET|BSIGNED|BWRAP|CLK12|CLK24|DATE|DDAYS|DEPTH|DMY|DOW|DROP|DUP|ERRMSG|ERRNO|FMA|GETKEY1|HEADING|L4STK|LNSTK|LOCAT|MDY|MVARCAT|NOP|NSTK|PGMMENU|RCLFLAG|RTNNO|RTNYES|STOFLAG|STRACE|TIME|WSIZE|X<>F|YMD)\\b",
+          "match": "\\b(4STK|ACCEL|ADATE|ANUM|APPEND|ATIME24|ATIME|BRESET|BSIGNED|BWRAP|CLK12|CLK24|C→N|DATE|DDAYS|DEPTH|DMY|DOW|DROP|DUP|ERRMSG|ERRNO|EXTEND|FMA|GETKEY1|HEADING|L4STK|LENGTH|LNSTK|LOCAT|MDY|MVARCAT|NEWLIST|NEWSTR|NOP|NSTK|N→C|N→S|PGMMENU|POS|RCLFLAG|REV|RTNNO|RTNYES|STOFLAG|STRACE|SUBSTR|S→N|TIME|WSIZE|X<>F|YMD)\\b",
           "name": "keyword.other.control.np.free42"
         }
       ]

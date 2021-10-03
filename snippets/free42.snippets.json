@@ -119,6 +119,14 @@
     ],
     "description": "AON: Alpha on. Select the ALPHA menu."
   },
+  "APPEND": {
+    "prefix": "APPEND",
+    "scope": "free42",
+    "body": [
+      "APPEND$0"
+    ],
+    "description": "APPEND: Adds the object in X to the string or list in Y and returns the combined string or list. If Y is a string, the contents of X will be converted to a string in the same way as ARCL. If Y is a list, X will be added to it unchanged. If X is a list, it will be added to Y as one element."
+  },
   "ARCL <number>": {
     "prefix": "ARCL",
     "scope": "free42",
@@ -631,6 +639,14 @@
     ],
     "description": "CUSTOM: Custom menu."
   },
+  "C→N": {
+    "prefix": "C→N",
+    "scope": "free42",
+    "body": [
+      "C→N$0"
+    ],
+    "description": "C→N: Convert character to number or number to character, like ATOX and XTOA."
+  },
   "DATE": {
     "prefix": "DAT",
     "scope": "free42",
@@ -982,6 +998,14 @@
       "EXPF$0"
     ],
     "description": "EXPF: Select the exponential curve-fitting model."
+  },
+  "EXTEND": {
+    "prefix": "EXTEND",
+    "scope": "free42",
+    "body": [
+      "EXTEND$0"
+    ],
+    "description": "EXTEND: Adds the object in X to the string or list in Y and returns the combined string or list. If Y is a string, the contents of X will be converted to a string in the same way as ARCL. If Y is a list, X will be added to it unchanged. If X is a list, it will be added to Y element by element."
   },
   "E↑X": {
     "prefix": "EX",
@@ -2495,6 +2519,14 @@
     ],
     "description": "LCLBL: Select local label mode for the custom menu (to use custom menu assignments to execute local labels within the current program)."
   },
+  "LENGTH": {
+    "prefix": "LENGTH",
+    "scope": "free42",
+    "body": [
+      "LENGTH$0"
+    ],
+    "description": "LENGTH: Returns the length of the string or list in X."
+  },
   "LINF": {
     "prefix": "LINF",
     "scope": "free42",
@@ -2510,6 +2542,14 @@
       "LINΣ$0"
     ],
     "description": "LINΣ: Select linear statistics mode, which uses six summation coefficients."
+  },
+  "LIST?": {
+    "prefix": "LIST?",
+    "scope": "free42",
+    "body": [
+      "LIST?$0"
+    ],
+    "description": "LIST?: Tests whether the object in X is a list."
   },
   "LN": {
     "prefix": "LN",
@@ -2671,6 +2711,14 @@
     ],
     "description": "N!: Factorial. Returns x!."
   },
+  "NEWLIST": {
+    "prefix": "NEWLIST",
+    "scope": "free42",
+    "body": [
+      "NEWLIST$0"
+    ],
+    "description": "NEWLIST: Returns a new empty list."
+  },
   "NEWMAT": {
     "prefix": "NEWMAT",
     "scope": "free42",
@@ -2678,6 +2726,14 @@
       "NEWMAT$0"
     ],
     "description": "NEWMAT: New matrix. Creates a y × x matrix in the x-register."
+  },
+  "NEWSTR": {
+    "prefix": "NEWSTR",
+    "scope": "free42",
+    "body": [
+      "NEWSTR$0"
+    ],
+    "description": "NEWSTR: Returns a new empty string. Equivalent to XSTR \"\"."
   },
   "NOP": {
     "prefix": "NOP",
@@ -2710,6 +2766,22 @@
       "NSTK$0"
     ],
     "description": "NSTK: N-level stack. Turns on big stack mode."
+  },
+  "N→C": {
+    "prefix": "N→C",
+    "scope": "free42",
+    "body": [
+      "N→C$0"
+    ],
+    "description": "N→C: Convert character to number or number to character, like ATOX and XTOA."
+  },
+  "N→S": {
+    "prefix": "N→S",
+    "scope": "free42",
+    "body": [
+      "N→S$0"
+    ],
+    "description": "N→S: Convert string to number or number to string, like ANUM and ARCL."
   },
   "OCTM": {
     "prefix": "OCTM",
@@ -2862,6 +2934,14 @@
       "POLAR$0"
     ],
     "description": "POLAR: Select polar coordinate mode for displaying complex numbers."
+  },
+  "POS": {
+    "prefix": "POS",
+    "scope": "free42",
+    "body": [
+      "POS$0"
+    ],
+    "description": "POS: Finds the first occurrence of the string or list X in Y. Or with three parameters: find the first occurrence of string or list X in Z, starting the search from position Y."
   },
   "POSA": {
     "prefix": "POSA",
@@ -3326,6 +3406,14 @@
       "RECT$0"
     ],
     "description": "RECT: Select rectangular coordinate mode for displaying complex numbers."
+  },
+  "REV": {
+    "prefix": "REV",
+    "scope": "free42",
+    "body": [
+      "REV$0"
+    ],
+    "description": "REV: Reverse the string or list in X."
   },
   "RND": {
     "prefix": "RND",
@@ -3879,6 +3967,14 @@
     ],
     "description": "STRACE: Stack Trace mode. This turns on a new print mode, which is a variation on TRACE mode, printing the entire stack instead of just X. This can be a valuable debugging tool, but it generates large amounts of output!"
   },
+  "SUBSTR": {
+    "prefix": "SUBSTR",
+    "scope": "free42",
+    "body": [
+      "SUBSTR$0"
+    ],
+    "description": "SUBSTR: From the string or list in Z, gets the substring/sublist starting at index Y and ending at index X. If X and/or Y are negative, they are counts from the end, rather than the beginning. The very end of the string or list can be specified by leaving off the 'end' parameter, i.e. by having the string or list in Y and the starting index in X."
+  },
   "SUM": {
     "prefix": "SUM",
     "scope": "free42",
@@ -3886,6 +3982,14 @@
       "SUM$0"
     ],
     "description": "SUM: Returns the sums Σx and Σy into the x- and y-registers."
+  },
+  "S→N": {
+    "prefix": "S→N",
+    "scope": "free42",
+    "body": [
+      "S→N$0"
+    ],
+    "description": "S→N: Convert string to number or number to string, like ANUM and ARCL."
   },
   "TAN": {
     "prefix": "TAN",
